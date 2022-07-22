@@ -1,0 +1,102 @@
+{
+  "product": [
+    {
+      "id": "5082579",
+      "name": "Gri Yün Dokuma Kazak",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "289₺",
+      "oldPrice": "379₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5082579"
+    },
+
+    {
+      "id": "5088790",
+      "name": "Siyah Skinny Paça Kot Pantolon",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "200₺",
+      "oldPrice": "299₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5088790"
+    },
+
+    {
+      "id": "5082586",
+      "name": "Kahverengi Fötr Şapka",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "199₺",
+      "oldPrice": "299₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5082586"
+    },
+
+    {
+      "id": "5082584",
+      "name": "Lastikli Paça Krem Pantolon",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": " 69₺",
+      "oldPrice": "149₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5082584"
+    },
+
+    {
+      "id": "5095004",
+      "name": "Taşlama Detaylı Kot pantolon",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "455₺",
+      "oldPrice": "655₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5095004"
+    },
+
+    {
+      "id": "5082589",
+      "name": "Lacivert Bol Kesim Kadın Eşofman Takım",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "489₺",
+      "oldPrice": "589₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5082589"
+    },
+
+    {
+      "id": "5082585",
+      "name": "Yüksek Bel Dar Paça Siya Pantolon",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "179₺",
+      "oldPrice": "259₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5082585"
+    },
+
+    {
+      "id": "5082583",
+      "name": "Beyaz Spor Ayakkabı",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "759₺",
+      "oldPrice": "934₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5082583"
+    },
+
+    {
+      "id": "5088823",
+      "name": "Baskılı T-Shirt Organik Baskılı",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "299₺",
+      "oldPrice": "399₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5088823"
+    },
+
+    {
+      "id": "5088817",
+      "name": "Beyaz Spor Ayakkabı",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "299₺",
+      "oldPrice": "399₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5088817"
+    },
+
+    {
+      "id": "5082580",
+      "name": "Gri Alt Eşofman",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "price": "387₺",
+      "oldPrice": "449₺",
+      "image": "//cdn.kobisi.com/cdn/image/20762/5082580"
+    }
+  ]
+}
