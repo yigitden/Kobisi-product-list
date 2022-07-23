@@ -23,7 +23,7 @@
                     <div class="modal-product-price"><h5>{{product.oldPrice}}</h5>  <h3>{{product.price}}</h3></div>
                 </div>
                 <div class="modal-product-count row align-center justify-space-between">
-                 <Count/>
+                 <ProductCount/>
                 </div>
             </div>
           </div>
@@ -35,9 +35,10 @@
 </template>
 
 <script>
-import Count from './Count.vue'
+import ProductCount from './ProductCount.vue'
 export default {
-  components:{Count},
+  name:'ProductModal',
+  components:{ProductCount},
   props: ["modalActive","product"],
   setup(props, { emit }) {
     const close = () => {

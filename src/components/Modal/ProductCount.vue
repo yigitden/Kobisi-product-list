@@ -11,6 +11,7 @@
 
 <script>
 export default {
+  name:'ProductCount',
   data() {
     return {
       count: 1,

@@ -13,14 +13,14 @@
     </div> 
     
   </div>
-  <Modal @close="handleModal" :modalActive="modalActive" :product="product">
+  <Modal @close="handleModal" :modalActive="modalActive" :product="product" />
  
-</Modal>
+
 </template>
 
 <script>
  import {ref} from 'vue'
- import Modal from "@/components/Modal/Modal.vue";
+ import Modal from "@/components/Modal/ProductModal.vue";
 
 export default {
   name: "ProductCard",
