@@ -6,8 +6,28 @@
        
        
           <!-- Modal Content -->
+          <div @click="close" class="row justify-flex-end modal-close" >X</div>
+          <div class="row">
+            <div class="col-12-lg"></div>
+            <div class="col-1-lg">
+
+            </div>
+            <div class="col-5-lg modal-product-image justify-center">
+                 <img v-bind:src="`https:${product.image}`" />
+
+            </div>
+            <div class="col-6-lg">
+                <div class="modal-product-body">
+                    <div class="modal-product-name"><h1>{{product.name}}</h1>  <h6>SKU: {{product.id}}</h6></div>
+                    <div class="modal-product-description">{{product.description}}</div>
+                    <div class="modal-product-price"><h5>{{product.oldPrice}}</h5>  <h3>{{product.price}}</h3></div>
+                </div>
+                <div class="modal-product-count row align-center justify-space-between">
+                 <Count/>
+                </div>
+            </div>
+          </div>
           
-          <button @click="close" type="button">Close</button>
         </div>
       </transition>
     </div>
@@ -15,7 +35,9 @@
 </template>
 
 <script>
+import Count from './Count.vue'
 export default {
+  components:{Count},
   props: ["modalActive","product"],
   setup(props, { emit }) {
     const close = () => {
@@ -37,7 +59,7 @@ export default {
   background-color: rgba(255, 255, 255, 0.7);
   .modal-inner {
     position: relative;
-    max-width: 640px;
+    max-width: 840px;
     width: 80%;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     background-color: $lightgray;
@@ -52,15 +74,19 @@ export default {
         color: crimson;
       }
     }
-    button {
-      padding: $base-padding*1.5 $base-padding*2.5;
-      border: none;
-      font-size: $base-font-size;
-      background-color: crimson;
-      color: #fff;
-      cursor: pointer;
+    img{
+        width:60%
     }
+
   }
+    .modal-close{
+         cursor:pointer
+    }
+
+}
+.modal-product-price h5{
+    color:$fire;
+    text-decoration:line-through;
 }
 .modal-animation-enter-active,
 .modal-animation-leave-active {
