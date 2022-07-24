@@ -1,0 +1,163 @@
+$direction-values: row,column,row-reverse,column-reverse;
+$display-values:flex,block,inline,inline-flex;
+//align items classes
+@each $val in $layout-values {
+    .align-#{$val}{
+        align-items: $val; 
+    }
+}
+
+//justify content classes
+@each $val in $layout-values {
+    .justify-#{$val}{
+        justify-content: $val; 
+    }
+}
+//justify content class for every breakpoints
+@include xs {
+    @each $val in $layout-values {
+        .justify-#{$val}-xs{
+            justify-content: $val; 
+        }
+    }
+}
+@include sm {
+    @each $val in $layout-values {
+        .justify-#{$val}-sm{
+            justify-content: $val; 
+        }
+    }
+}
+@include md {
+    @each $val in $layout-values {
+        .justify-#{$val}-md{
+            justify-content: $val; 
+        }
+    }
+}
+@include lg {
+    @each $val in $layout-values {
+        .justify-#{$val}-lg{
+            justify-content: $val; 
+        }
+    }
+}
+@include xl {
+    @each $val in $layout-values {
+        .justify-#{$val}-xl{
+            justify-content: $val; 
+        }
+    }
+}
+
+//align items class for every breakpoints
+@include xs {
+    @each $val in $layout-values {
+        .align-#{$val}-xs{
+            align-items: $val; 
+        }
+    }
+}
+@include sm {
+    @each $val in $layout-values {
+        .align-#{$val}-sm{
+            align-items: $val; 
+        }
+    }
+}
+@include md {
+    @each $val in $layout-values {
+        .align-#{$val}-md{
+            align-items: $val; 
+        }
+    }
+}
+@include lg {
+    @each $val in $layout-values {
+        .align-#{$val}-lg{
+            align-items: $val; 
+        }
+    }
+}
+@include xl {
+    @each $val in $layout-values {
+        .align-#{$val}-xl{
+            align-items: $val; 
+        }
+    }
+}
+
+//flex direction for every breakpoints
+
+@include xs {
+    @each $val in $direction-values {
+        .flex-#{$val}-xs{
+            flex-direction: $val; 
+        }
+    }
+}
+@include sm {
+    @each $val in $direction-values {
+        .flex-#{$val}-sm{
+            flex-direction: $val; 
+        }
+    }
+}
+@include md {
+    @each $val in $direction-values {
+        .flex-#{$val}-md{
+            flex-direction: $val; 
+        }
+    }
+}
+@include lg {
+    @each $val in $direction-values {
+        .flex-#{$val}-lg{
+            flex-direction: $val; 
+        }
+    }
+}
+@include xl {
+    @each $val in $direction-values {
+        .flex-#{$val}-xl{
+            flex-direction: $val; 
+        }
+    }
+}
+
+//display setting for every breakpoints
+@include xs {
+    @each $val in $display-values {
+        .d-#{$val}-xs{
+            display: $val; 
+        }
+    }
+}
+@include sm {
+    @each $val in $display-values {
+        .d-#{$val}-sm{
+            display: $val; 
+        }
+    }
+}
+@include md {
+    @each $val in $display-values {
+        .d-#{$val}-md{
+            display: $val; 
+        }
+    }
+}
+@include lg {
+    @each $val in $display-values {
+        .d-#{$val}-lg{
+            display: $val; 
+        }
+    }
+}
+@include xl {
+    @each $val in $display-values {
+        .d-#{$val}-xl{
+            display: $val; 
+        }
+    }
+}

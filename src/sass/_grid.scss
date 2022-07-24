@@ -17,7 +17,10 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
     padding: 0 20px;
     box-sizing: border-box;
 };
-
+.column{
+    display: flex;
+    flex-flow: column wrap;
+}
 .row {
     display: flex;
     flex-flow: row wrap;
@@ -35,18 +38,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
     }
 }
 
-//justify content classes
-@each $val in $layout-values {
-    .justify-#{$val}{
-        justify-content: $val; 
-    }
-}
-//align items classes
-@each $val in $layout-values {
-    .align-#{$val}{
-        align-items: $val; 
-    }
-}
+
 
 //col classes
 @include xs {
