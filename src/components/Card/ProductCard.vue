@@ -20,6 +20,7 @@
 <script>
 import { ref } from "vue";
 import Modal from "@/components/Modal/ProductModal.vue";
+ 
 
 export default {
   name: "ProductCard",
@@ -35,6 +36,7 @@ export default {
     return { modalActive, handleModal };
   },
 };
+ 
 </script>
 
 <style lang="scss" scoped>
@@ -55,7 +57,6 @@ export default {
     bottom: 50%;
     transform: translateX(-50%);
     height: 40px;
-    width: 140px;
     border: none;
     outline: none;
     background: rgb(81, 81, 81);
@@ -82,10 +83,13 @@ export default {
 
 .card-image {
   overflow: hidden;
+
+  width:100%;
 }
 img {
-  width: 80%;
-  height: auto;
+  width: 50%;
+  object-fit: cover;
+
 }
 .product-name {
   font-size: $base-font-size * 1.1;

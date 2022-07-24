@@ -2,20 +2,17 @@
   <section id="product-list">
     <div class="container">
       <div class="row">
-        
-             <div
-               class="product col-12-xs col-6-lg "
-               v-for="product of products.slice(0, 1)"
-                 :key="product.id"
-             >
-                    <ProductCard :product="product" />
-              </div>
-         
-
+        <div
+          class="product col-12-xs col-6-lg"
+          v-for="product of products.slice(0, 1)"
+          :key="product.id"
+        >
+          <ProductCard :product="product" />
+        </div>
 
         <div class="lists col-6-lg row">
           <div
-            class="product col-6-xs col-6-lg "
+            class="product col-6-xs col-6-lg"
             v-for="product of products.slice(1, 5)"
             :key="product.id"
           >
@@ -75,9 +72,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-.product{
+.product {
   padding: $base-padding;
 }
- 
 </style>

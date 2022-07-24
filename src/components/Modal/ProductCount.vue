@@ -29,6 +29,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 button {
   padding: $base-padding;
   border: none;
