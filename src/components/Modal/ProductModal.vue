@@ -11,7 +11,7 @@
               class="modal-all-images col-6-md d-flex-xs flex-column-reverse-xs flex-row-md"
             >
               <div
-                class="modal-three-images col-2-xs col-2-md d-flex-xs flex-column-md flex-row-xs justify-space-evenly-md"
+                class="modal-three-images col-2-xs d-flex-xs flex-row-xs flex-column-md justify-space-evenly-md"
               >
                 <img v-bind:src="`https:${product.image}`" />
                 <img v-bind:src="`https:${product.image}`" />
@@ -75,9 +75,10 @@ export default {
   top: 0;
   left: 0;
   background-color: rgba(255, 255, 255, 0.7);
-
+  z-index: 1;
   .modal-inner {
     position: relative;
+
     max-width: 840px;
     width: 80%;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
