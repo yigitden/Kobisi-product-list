@@ -11,7 +11,7 @@
 
 <script>
 export default {
-  name:'ProductCount',
+  name: "ProductCount",
   data() {
     return {
       count: 1,
@@ -34,7 +34,7 @@ button {
   border: none;
   font-size: $base-font-size;
   background-color: $button;
-  color: #fff;
+  color: $lightgray;
   cursor: pointer;
   &:hover {
     transition: 0.3s;
@@ -42,6 +42,6 @@ button {
   }
 }
 .count {
-  width: 110px;
+  width: 115px;
 }
 </style>
